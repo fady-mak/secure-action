@@ -1,0 +1,10 @@
+{
+  "name": "@secure-action/example",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "secure-action": "workspace:*"
+  }
+}

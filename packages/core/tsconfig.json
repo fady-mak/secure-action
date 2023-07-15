@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "skipDefaultLibCheck": true,
+    "strict": true,
+    "jsx": "preserve",
+    "target": "ES2015",
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["src/*.ts", "src/**/*"],
+  "exclude": ["dist"]
+}

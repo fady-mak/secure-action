@@ -1,0 +1,42 @@
+{
+  "name": "secure-action",
+  "version": "0.0.0",
+  "files": [
+    "es",
+    "lib",
+    "README.md"
+  ],
+  "main": "./lib/index.js",
+  "module": "./es/index.mjs",
+  "types": "./es/index.d.ts",
+  "exports": {
+    "types": "./es/index.d.ts",
+    "import": "./es/index.mjs",
+    "require": "./lib/index.js"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "keywords": [
+    "Vue 3",
+    "用户行为验证码",
+    "安全验证",
+    "行为保护",
+    "vue3 验证码",
+    "点击文字验证码",
+    "Vue 3",
+    "User Behavior Captcha",
+    "Security Verification",
+    "Behavior Protection",
+    "Vue3 Captcha",
+    "Click-to-Text Captcha"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fady-mak/secure-action"
+  },
+  "author": {
+    "name": "Fady Mak",
+    "email": "fadymak.z@gmail.com"
+  }
+}

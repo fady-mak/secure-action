@@ -1,0 +1,32 @@
+{
+  "name": "@secure-action/core",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "run-p type-check build-only",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit --composite false"
+  },
+  "keywords": [],
+  "author": "Fady Mark",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fady-mak/secure-action"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "esbuild": "^0.18.12",
+    "esbuild-plugin-filesize": "^0.4.0",
+    "esbuild-plugin-progress": "^1.0.1",
+    "esbuild-plugin-vue": "^0.2.4",
+    "postcss": "^8.4.26",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^9.0.0"
+  }
+}
