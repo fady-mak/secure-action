@@ -1,5 +1,12 @@
 
 
+## 1.0.0 (2023-07-16)
+
+
+### Features
+
+* v1.0.0 初始版本提交 ([ace5647](https://github.com/fady-mak/secure-action/commit/ace56475fa265a833a88a7232d342b0a72d5e97c))
+
 ## [0.2.0](https://github.com/fady-mak/secure-action/compare/0.1.0...0.2.0) (2023-07-15)
 
 
